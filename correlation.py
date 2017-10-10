@@ -18,6 +18,8 @@ def calculate_pearson_corr(df):
         w.writerows(corr.items())
     return corr
 
+#Below function calculates the point biserial correlation between all columns of a dataframe and writes it into csv file.
+#Point biserial correlation is calculated between a (naturally) dichotomous variable and a continuous variable.
 def calculate_pbs_corr(df):
     from scipy import stats
     import csv
