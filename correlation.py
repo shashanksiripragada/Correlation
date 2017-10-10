@@ -1,3 +1,4 @@
+#Below function calculates the pearson correlation between all columns of a dataframe and writes it into csv file, this helps in checking for collinearity.
 def calculate_pearson_corr(df):
     from scipy import stats
     import csv
